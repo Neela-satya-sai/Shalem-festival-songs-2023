@@ -1,0 +1,111 @@
+.header{
+    height: 62px;
+    background-color: white;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    height: 60px;
+
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 100;
+
+    background-color: white;
+    border-bottom-width: 2px;
+    border-top-width: 2px;
+    border-bottom-style: solid;
+    border-bottom-color: rgb(215, 211, 211);
+
+}
+
+.header-left {
+    display: flex;
+    flex-direction: column;
+    flex: 2;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    background-color:antiquewhite;
+    border-radius: 10px;
+    margin-left: 5px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 30px;
+
+}
+.header-right{
+    display: flex;
+    flex: 1;
+    align-items: center;
+    flex-direction: row;
+    text-align: center;
+    justify-content: center;
+    gap: 30px;
+    margin-top: 5px;
+    margin-left: 15px;
+    margin-right: 15px;
+}
+.youtube-icon-container{
+                
+}
+.youtube-icon{
+   
+   width: 46px;
+}
+
+
+.insta-icon-container{
+
+}
+
+.insta-icon{
+    width: 42px;
+
+}
+
+
+
+.fb-icon-container{
+    
+ 
+}
+.fb-icon{
+
+    width: 42px;
+}
+
+
+.youtube-icon-container, .insta-icon-container
+.fb-icon-container{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.youtube-icon-container .tooltip,
+.insta-icon-container .tooltip,
+.fb-icon-container .tooltip{
+    position: absolute;
+    background-color: rgb(111, 108, 108);
+    color: white;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    font-size: 12px;
+    font-family: roboto;
+    border-radius: 3px;
+    bottom: -36px;
+    opacity: 0;
+    transition: opacity 0.15s;
+    pointer-events: none;
+    white-space: nowrap;
+}
+
+.youtube-icon-container:hover .tooltip,
+.insta-icon-container:hover .tooltip,
+.fb-icon-container:hover .tooltip{
+    opacity: 1;
+}

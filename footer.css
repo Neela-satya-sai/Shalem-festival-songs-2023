@@ -1,0 +1,47 @@
+.foot{
+    display: flex; 
+    flex-direction: row;
+    background-color: rgb(186, 181, 181);
+    text-align: center;
+   
+    position:fixed;
+    height: 84x;
+    left: 0px;
+    right: 0px;
+    bottom: 0px;           
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 14px;
+    border-bottom-width: 2px;
+     border-top-width: 2px;
+     border-bottom-style: solid;
+     border-bottom-color: rgb(215, 211, 211);
+   
+    
+ }
+ .foot-left{
+     flex: 1.5;
+     background-color: aliceblue;
+  
+ 
+ }
+ .services{
+     font-size: large;
+     font-weight: 30px;
+     font-family: cursive;
+ }
+ 
+ .foot-right{
+     flex: 1;
+     background-color:aliceblue;
+ }
+ .address{
+     font-size: large;
+     font-weight: 30px;
+     font-family: cursive;
+ }
+ .map-icon-cointainer{
+     width: 20px;
+ }
+ .map-icon{
+     width: 20px;
+ }

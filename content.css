@@ -1,0 +1,60 @@
+/*body{
+    background-image: url("istockphoto-1059499980-612x612.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+
+   
+    
+}*/
+
+
+.main-content{
+    margin-top: 77px;
+    margin-right: 10px;
+    margin-left: 20px;
+    margin-bottom: 120px;
+    
+    display: flex;
+    flex: 1;
+    flex-direction: column;
+    align-items: start;
+    justify-content: space-between;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;        
+
+    
+}
+.western{
+   flex: 1;
+
+}
+.melodey{
+  
+   flex: 1;
+  
+}
+.fast{
+  
+   flex: 1;
+   
+}
+.slow{
+   
+   flex: 1;              
+}
+li:hover, a:hover{
+    color: rgb(12, 163, 251);
+}
+a:active{
+    color: rgb(5, 149, 5);
+}
+a{
+    text-decoration: None;
+    
+}
+
+#song-display{
+    text-align: center;
+    
+    
+}
+
