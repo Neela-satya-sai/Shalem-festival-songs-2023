@@ -24,22 +24,22 @@
     
 }
 .western{
-   flex: 1;
+  
 
 }
 .melodey{
   
-   flex: 1;
+  
   
 }
 .fast{
   
-   flex: 1;
+  
    
 }
 .slow{
    
-   flex: 1;              
+               
 }
 li:hover, a:hover{
     color: rgb(12, 163, 251);
@@ -49,7 +49,7 @@ a:active{
 }
 a{
     text-decoration: None;
-    
+   
 }
 
 #song-display{
