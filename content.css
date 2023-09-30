@@ -13,6 +13,7 @@
     margin-right: 10px;
     margin-left: 20px;
     margin-bottom: 120px;
+
     
     display: flex;
     flex: 1;
@@ -22,24 +23,6 @@
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;        
 
     
-}
-.western{
-  
-
-}
-.melodey{
-  
-  
-  
-}
-.fast{
-  
-  
-   
-}
-.slow{
-   
-               
 }
 li:hover, a:hover{
     color: rgb(12, 163, 251);
@@ -52,8 +35,16 @@ a{
    
 }
 
+songs-box{
+
+}
 #song-display{
-    text-align: center;
+    
+    text-align: justify;
+    margin: 4%;
+    line-height: 22px;
+   
+   
     
     
 }
